@@ -1,0 +1,125 @@
+body {
+  background-color: honeydew;
+}
+
+.garden {
+  border: 2px solid maroon;
+  padding: 2px;
+  gap: 2px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.garden p {
+  margin: 2%;
+  border-radius: 5px;
+  padding: 0.25rem;
+  background-color: wheat;
+  text-align: center;
+}
+.garden2 {
+  border: 2px solid maroon;
+  padding: 2px;
+  gap: 2px;
+  display: grid;
+  
+}
+#level-2 {
+  margin: 2%;
+  border-radius: 2px;
+  padding: 0.25rem;
+  background-color: rgb(244, 212, 154);
+text-align:center; 
+}
+.carrots2 {
+  grid-row: span1;
+}
+.lettuce2 {
+  grid-column: span ;
+}
+.tomatoes2 {
+  grid-column:span;
+}
+.onions2 {
+  grid-row: span2;
+}
+
+
+.garden3 {
+ border: 2px solid maroon;
+  padding: 2px;
+ gap: 2px;
+}
+#level-3 {
+  margin: 4%;
+  border-radius: 2px;
+  padding: 0.25rem;
+  background-color: rgb(244, 212, 154);
+  display: grid;
+  text-align: center;
+  grid-auto-rows: 50px;
+grid-template-columns: 1fr repeat(2, 60px);
+}
+.lettuce3 {
+  grid-column: span2;
+}
+.tomatoes3 {
+  grid-row: span5;
+}
+.garden4 {
+ border: 2px solid maroon;
+  padding: 2px;
+  gap: 2px;
+  display: grid;
+}
+#level-4{
+   margin: 4%;
+  border-radius: 2px;
+  padding: 0.25rem;
+  background-color: rgb(244, 212, 154);
+  grid-template-columns: 1fr repeat(2, 60px);
+  text-align: center;
+  gap: 15%;
+}
+.carrots4 {
+  grid-column: span2;
+}
+.tomatoes4 {
+  order: 2;
+}
+.lettuce4 {
+  order: 3;
+}
+.garden5 {
+  border: 2px solid maroon;
+  padding: 2px;
+  gap: 2px;
+  display: grid;
+}
+#level-5 {
+    margin: 4%;
+    border: ;
+  border-radius: 15px;
+  padding: 0.25rem;
+  background-color: rgb(244, 212, 154);
+   grid-template-rows: auto 1fr auto
+  text-align: center;
+  gap: 15px;
+}
+.carrots5 {
+  grid-column: span;
+}
+.peas5 {
+  grid-column: span2;
+}
+.lettuce5 
+ {
+  order: 1;
+ }
+ .tomatoes5 {
+  order: 3;
+ }
+.onions5 {
+  order: 3;
+}
+
